@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RunningCat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="game-shell">
+    <div id="game-wrap">
+      <canvas id="game-canvas" width="1000" height="800"></canvas>
+      <canvas id="text-canvas" width="1000" height="800"></canvas>
+    </div>
+  </main>
+
+  <!-- Three.js is used only as the browser/WebGL equivalent of the original PyOpenGL drawing calls. -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
